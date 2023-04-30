@@ -22,7 +22,7 @@ npm run dev
 ```
 
 > ### Note
-> The Next.js site is deployed and live on [Vercel](https://wathare-infotech-solutions-task.onrender.com).
+> The Next.js site is deployed and live on [Vercel](https://green-stitch-task.vercel.app/).
 
 _____
 
