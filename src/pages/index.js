@@ -6,7 +6,8 @@ export default function Home() {
     spinning: 0,
     transportation: 0,
     carding: 0,
-    heating_cooling: 0
+    heating_cooling: 0,
+    overallTotal: 0
   })
 
   return (
@@ -96,7 +97,7 @@ export default function Home() {
               <div className='auto-group-jgpw-khC'>
                 <div className='header-hMY'>
                   <p className='carbon-footprint-Fdx'>Carbon FootPrint</p>
-                  <p className='t-co2e-bC2'>2,412,314t CO2e</p>
+                  <p className='t-co2e-bC2'>{emissionPercentages.overallTotal}t CO2e</p>
                 </div>
                 <div className='badge-inS'>
                   <div className='content-eg6'>
@@ -109,7 +110,7 @@ export default function Home() {
               <div className='content-ZwU'>
                 <div className='header-iJa'>
                   <p className='emissions-by-spinning-4tE'>Emissions by Spinning</p>
-                  <p className='t-DFL'>72,3694t</p>
+                  <p className='t-DFL'>{emissionPercentages.spinning * emissionPercentages.overallTotal}t</p>
                   <p className='co2e-M6e'>CO2e</p>
                 </div>
                 <div className='badge-hAW'>
@@ -123,7 +124,7 @@ export default function Home() {
               <div className='content-9wc'>
                 <div className='header-WnA'>
                   <p className='emission-by-transportation-sMp'>Emission By Transportation</p>
-                  <p className='t-1U2'>361,874t</p>
+                  <p className='t-1U2'>{emissionPercentages.transportation * emissionPercentages.overallTotal}t</p>
                   <p className='co2e-kAi'>CO2e</p>
                 </div>
                 <div className='info-gq4'>
@@ -139,7 +140,7 @@ export default function Home() {
               <div className='content-tpe'>
                 <div className='header-3xS'>
                   <p className='emission-by-carding-D6E'>Emission by Carding</p>
-                  <p className='item-241231-ZA6'>241,231</p>
+                  <p className='item-241231-ZA6'>{emissionPercentages.carding * emissionPercentages.overallTotal}</p>
                   <p className='co2e-hGJ'>CO2e</p>
                 </div>
                 <div className='info-SDt'>

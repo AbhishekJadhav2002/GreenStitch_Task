@@ -33,7 +33,8 @@ export default async function handler(req, res, next) {
             spinning: ((categoryTotals.spinning / overallTotal) * 100).toPrecision(2),
             transportation: ((categoryTotals.transportation / overallTotal) * 100).toPrecision(2),
             carding: ((categoryTotals.carding / overallTotal) * 100).toPrecision(2),
-            heating_cooling: ((categoryTotals.heating_cooling / overallTotal) * 100).toPrecision(2)
+            heating_cooling: ((categoryTotals.heating_cooling / overallTotal) * 100).toPrecision(2),
+            overallTotal
           }
 
         res.status(200).json(percentageData)
