@@ -1,0 +1,100 @@
+[
+  {
+    "datetime": "2023-01-11 00:00:00",
+    "spinning": "60000",
+    "transportation": "30000",
+    "carding": "20000",
+    "heating_cooling": "18000"
+  },
+  {
+    "datetime": "2023-01-19 00:00:00",
+    "spinning": "30000",
+    "transportation": "12000",
+    "carding": "8000",
+    "heating_cooling": "6000"
+  },
+  {
+    "datetime": "2023-02-09 00:00:00",
+    "spinning": "44000",
+    "transportation": "23000",
+    "carding": "12000",
+    "heating_cooling": "8000"
+  },
+  {
+    "datetime": "2023-02-23 00:00:00",
+    "spinning": "50000",
+    "transportation": "32000",
+    "carding": "13000",
+    "heating_cooling": "13500"
+  },
+  {
+    "datetime": "2023-03-04 00:00:00",
+    "spinning": "50000",
+    "transportation": "30000",
+    "carding": "16500",
+    "heating_cooling": "11000"
+  },
+  {
+    "datetime": "2023-03-26 00:00:00",
+    "spinning": "46600",
+    "transportation": "25400",
+    "carding": "12000",
+    "heating_cooling": "8700"
+  },
+  {
+    "datetime": "2023-04-15 00:00:00",
+    "spinning": "85000",
+    "transportation": "60000",
+    "carding": "28000",
+    "heating_cooling": "23000"
+  },
+  {
+    "datetime": "2023-04-28 00:00:00",
+    "spinning": "38000",
+    "transportation": "19000",
+    "carding": "13400",
+    "heating_cooling": "12300"
+  },
+  {
+    "datetime": "2023-05-03 00:00:00",
+    "spinning": "76800",
+    "transportation": "42900",
+    "carding": "24000",
+    "heating_cooling": "18000"
+  },
+  {
+    "datetime": "2023-05-22 00:00:00",
+    "spinning": "89000",
+    "transportation": "76000",
+    "carding": "45000",
+    "heating_cooling": "26000"
+  },
+  {
+    "datetime": "2023-06-08 00:00:00",
+    "spinning": "43000",
+    "transportation": "23000",
+    "carding": "12600",
+    "heating_cooling": "6800"
+  },
+  {
+    "datetime": "2023-06-26 00:00:00",
+    "spinning": "60000",
+    "transportation": "54000",
+    "carding": "34000",
+    "heating_cooling": "21000"
+  },
+  {
+    "datetime": "2023-07-14 00:00:00",
+    "spinning": "45000",
+    "transportation": "30000",
+    "carding": "22400",
+    "heating_cooling": "16000"
+  },
+  {
+    "datetime": "2023-07-27 00:00:00",
+    "spinning": "57000",
+    "transportation": "43600",
+    "carding": "27600",
+    "heating_cooling": "16500"
+  }
+]
